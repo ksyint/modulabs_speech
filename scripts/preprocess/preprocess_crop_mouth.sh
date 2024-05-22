@@ -1,0 +1,1 @@
+HYDRA_FULL_ERROR=1 python ./src/core/preprocess/crop_mouth/main.py
