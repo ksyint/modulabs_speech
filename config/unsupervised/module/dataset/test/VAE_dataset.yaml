@@ -1,0 +1,4 @@
+
+_target_: common.dataset.unsupervised.codebook.VAE_Dataset
+dir_path: /app/lrs3/test
+size: 64

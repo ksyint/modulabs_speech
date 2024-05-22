@@ -1,0 +1,14 @@
+_target_: core.module.unsupervised.module.UnsupModule
+
+defaults:
+  - model: unsupervised
+  - criterion: Lip2Text_loss
+  - dataset: unsupervised
+
+optimizer:
+  _target_: torch.optim.Adam
+  lr: 0.0001
+
+batch_size: 1
+num_workers: 3
+print_img: True

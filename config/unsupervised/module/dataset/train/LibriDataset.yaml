@@ -1,0 +1,4 @@
+_target_: common.dataset.unsupervised.librispeech_dataset.LibriDataset
+
+type: "train.100"
+max_length: 392400

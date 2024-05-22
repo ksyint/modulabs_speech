@@ -1,0 +1,2 @@
+_target_: common.dataset.preprocess.LandmarkDataset3D
+video_path: "/app/lrs3/one_video_test"

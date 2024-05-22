@@ -1,0 +1,10 @@
+save_path: ??
+
+hydra:
+  run:
+    dir: ${save_path}/hydra_outputs/${now:%Y-%m-%d}/${now:%H-%M-%S}
+
+Trainer:
+  _target_: core.module.preprocess.crop_mouth.module.CropMouth
+  video_dir: /app/lrs3/one_video_test
+  # "/app/lrs3/pretrain"

@@ -1,0 +1,6 @@
+
+_target_: common.dataset.unsupervised.codebook.VAE_Dataset
+json_path: "/app/Talking_Head_Generation_2/preprocess_log/Lrs3_train_valid.json"
+dir_path: "/app/lrs3/trainval"
+type: "Train"
+size: 64

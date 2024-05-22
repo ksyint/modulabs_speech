@@ -1,0 +1,12 @@
+save_path: preprocess_log
+
+hydra:
+  run:
+    dir: ${save_path}/hydra_outputs/${now:%Y-%m-%d}/${now:%H-%M-%S}
+
+seed: 777
+data_path: "/app/lrs3/trainval/*/*_crop.mp4"
+Need_Validation_only: True
+validation_size: 0.2
+shuffle: True
+filename: "Lrs3_train_valid.json"

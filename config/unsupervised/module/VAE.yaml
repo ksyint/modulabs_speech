@@ -1,0 +1,18 @@
+_target_: core.module.unsupervised.codebook.module.VAE
+defaults:
+  - _self_
+  - model: VAE
+  - dataset: VAE_dataset
+
+criterion:
+  _target_: torch.nn.L1Loss
+
+optimizer:
+  _target_: torch.optim.Adam
+  lr: 0.0001
+
+scheduler: null
+
+batch_size: 256
+num_workers: 4
+save_path: "./PCL"

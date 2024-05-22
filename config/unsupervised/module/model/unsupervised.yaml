@@ -1,0 +1,5 @@
+_target_: common.models.unsupervised.SelfLearn
+
+defaults:
+  - audio_encoder: wav2vec
+  - generator: PCL_generator

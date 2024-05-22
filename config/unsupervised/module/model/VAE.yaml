@@ -1,0 +1,6 @@
+_target_: common.models.unsupervised.CodeBVAE
+
+defaults:
+  - encoder: FaceCycleBackbone
+  - codebook: memory
+  - decoder: Generator

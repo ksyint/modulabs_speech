@@ -1,0 +1,5 @@
+defaults:
+  - _self_
+  - train: VAE_dataset
+  - validation: VAE_dataset
+  - test: VAE_dataset

@@ -1,0 +1,3 @@
+_target_: common.models.preprocess.landmark.Landmark3D
+
+device: "cuda"

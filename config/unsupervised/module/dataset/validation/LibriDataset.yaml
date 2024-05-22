@@ -1,0 +1,4 @@
+_target_: common.dataset.unsupervised.librispeech_dataset.LibriDataset
+
+type: "validation"
+max_length: 522320

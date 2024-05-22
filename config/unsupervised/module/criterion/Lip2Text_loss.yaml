@@ -1,0 +1,6 @@
+_target_: common.loss.Lip2Text_Loss
+
+defaults:
+  - lip2text_model: auto_avsr
+
+weight_path: /app/Talking_Head_Generation/src/common/loss/espnet/nets/model_weights/vsr_trlrwlrs2lrs3vox2avsp_base.pth

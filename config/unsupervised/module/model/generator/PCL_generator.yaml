@@ -1,0 +1,3 @@
+_target_: common.models.unsupervised.generator.PCL_generator.Generator
+
+model_path: "/app/Talking_Head_Generation/src/external/PCL/checkpoints/pcl_test/4001.pth"

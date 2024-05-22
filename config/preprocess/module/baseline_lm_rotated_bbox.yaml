@@ -1,0 +1,9 @@
+_target_: core.module.preprocess.landmarks_detection.module3D.LandmarksDetection
+defaults:
+  - _self_
+  - backbone: landmark3D_bbox
+  - dataset: preprocess_lm3D_bbox
+
+batch_size: 1
+num_workers: 4
+save_path: "./landmark"
